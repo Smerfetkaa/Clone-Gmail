@@ -1,0 +1,21 @@
+.errorBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+.error {
+  position: fixed;
+  top: 50vh;
+  left: 20vw;
+  width: 60vw;
+  height: 80px;
+  z-index: 999;
+  background-color: white;
+  border: 1px solid black;
+}
+
